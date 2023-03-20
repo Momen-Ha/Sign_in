@@ -1,0 +1,64 @@
+.signIn {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signText {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.s {
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    padding: 15px 10px 20px 10px;
+    border-radius: 18px;
+    box-shadow: inset 0 20px 35px rgba(0, 0, 0, 0.1);
+    height: 400px;
+}
+
+.fields {
+    font-size: 15px;
+    width: 80%;
+    background-color: rgb(224, 219, 210);
+    outline: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 15px 20px;
+
+}
+
+.signInButton {
+    margin-top: 10px;
+    width: 50%;
+    padding: 10px 0;
+    border-radius: 15px;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    background-color:#DEB887;
+    border: none;
+    transition: 0.2s;
+}
+.signInButton:hover,.forgotPasswordText:hover {
+    opacity: 90%;
+}
+
+.forgotPasswordText {
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    align-self: flex-start;
+    padding-left: 15px;
+    font-weight: 600;
+}
